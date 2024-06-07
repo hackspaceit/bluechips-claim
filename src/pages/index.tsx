@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const HOST_URL = process.env.NEXT_PUBLIC_HOST_URL;
 const title = "Transaction Farcaster Frame on OP";
-const frameImgUrl = `${HOST_URL}/child.png`;
+const frameImgUrl = `${HOST_URL}/nft-1.jpg`;
 
 export default function Home() {
   return (
@@ -12,14 +12,14 @@ export default function Home() {
         <meta property="fc:frame" content="vNext"/>
         <meta name="fc:frame:image" content={frameImgUrl}/>
         <meta name="fc:frame:image:aspect_ratio" content="1:1"/>
-        <meta name="fc:frame:button:1" content="Mint NFT"/>
+        <meta name="fc:frame:button:1" content="Mint NFT (Free 200)"/>
         <meta property="fc:frame:button:1:action" content="tx"/>
         <meta 
           property="fc:frame:button:1:target"
           content={`${HOST_URL}/api/frame/op/get-tx-frame`}
         />
       </Head>
-      <h1>Transaction Frame</h1>
+      <h1>Blue Chipset NFT</h1>
     </>
   );
 }
