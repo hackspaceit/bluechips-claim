@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const HOST_URL = process.env.NEXT_PUBLIC_HOST_URL;
 const title = "Transaction Farcaster Frame on OP";
-const frameImgUrl = `${HOST_URL}/holo.gif`;
+const frameImgUrl = `${HOST_URL}/nounsholo.gif`;
 
 export default function Home() {
   return (
