@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 const HOST_URL = process.env.NEXT_PUBLIC_HOST_URL;
-const title = "Free Nouns Holographic NFT Mint";
+const title = "Nouns Holographic NFT Mint";
 const frameImgUrl = `${HOST_URL}/nounsholo.gif`;
 
 export default function Home() {
