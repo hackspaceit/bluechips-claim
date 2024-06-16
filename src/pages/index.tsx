@@ -19,7 +19,7 @@ export default function Home() {
           content={`${HOST_URL}/api/frame/op/get-tx-frame`}
         />
       </Head>
-      <h1>Blue Chipset NFT</h1>
+      <h1>Nouns Holographic NFT</h1>
     </>
   );
 }
